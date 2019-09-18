@@ -1,1 +1,30 @@
+.app-body {
+  padding: 6% 15%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+}
+
+#img-header {
+  width: 100%;
+}
+
+.pic-container {
+  padding: 7% 0%;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+#search-button {
+
+}
