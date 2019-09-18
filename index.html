@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Recipe Finder</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="app-body">
@@ -13,7 +14,11 @@
       <div class="pic-container"> <img id="img-header" src="http://www.culinartgroup.com/wp-content/uploads/2014/08/CulinaryInnovations_Header.jpg" alt="image-header"></div>
       <div class="search-container">
         <input id="user-input" type="text" name="search-field" value="" placeholder="Watcha searchin' for?">
-        <button id="search-button" type="button" name="button"></button>
+        <button id="search-button" type="button" name="button">
+          <div class="button-text">
+            Search!
+          </div>
+        </button>
       </div>
       <div class="recipes-list">
         <div class="table-row">
@@ -24,7 +29,7 @@
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href="#">Read more</a>
+            <a class="read-more-link" href="#">Read more</a>
           </div>
         </div>
       </div>
