@@ -51,7 +51,7 @@ body {
   font-weight: bold;
 }
 
-#user-input {
+#dish-input {
   display: flex;
   flex: 3;
   border: 1px solid grey;
