@@ -51,7 +51,7 @@ body {
   font-weight: bold;
 }
 
-#user-input {
+#dish-input {
   display: flex;
   flex: 3;
   border: 1px solid grey;
@@ -73,6 +73,7 @@ body {
   padding-top: 20px;
 }
 
+
 .read-more-link {
   color: #197278;
   transition: all 0.5s ease;
@@ -81,3 +82,34 @@ a:visited, a:hover {
   color: #283D3B;
 }
 
+/* NEW NATASHA's CODE!!!! */
+
+.error-message {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+.error-line {
+  text-align: center;
+}
+
+.error-container {
+  /* display: none; */
+}
+
+.error-container-displayed {
+  display: block;
+}
+
+.footer {
+  padding: 20px 0px;
+  color: #523F38;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* NEW NATASHA's CODE!!!! */

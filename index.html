@@ -14,27 +14,34 @@
       <div class="pic-container"> <img id="img-header" src="http://www.culinartgroup.com/wp-content/uploads/2014/08/CulinaryInnovations_Header.jpg" alt="image-header"></div>
       <div class="search-container">
         <input id="dish-input" type="text" name="search-field" value="" placeholder="What do you want to eat?">
-        <input id="ingredients-input" type="text" name="search-field" value="" placeholder="Write ingredients - seperated by comma">
         <button id="search-button" type="button" name="button" onclick="printRowsToForm(dataintoList(getDataObject(dummyObject)))">
           <div class="button-text">
             Search!
           </div>
         </button>
       </div>
-      <div class="recipes-list">
+      <div class="recipes-list" id="recipes-list">
         <div class="table-row">
-          <div class="recipe-name">
-            <h1 id="recipe-name-h1"></h1>
-          </div>
-          <div class="ingredients">
-            <p>
+        </div>
+        <!-- /* NEW NATASHA's CODE!!!! */ -->
+        <div class="error-container">
+          <div class="error-message">
+            <p class="error-line">
+              WHOOPS! No results...
             </p>
-            <a class="read-more-link" href="#">Read more</a>
+            <p class="error-line">Try to make your request shorter or look for something else</p>
           </div>
         </div>
+        <!-- /* NEW NATASHA's CODE!!!! */ -->
       </div>
     </div>
   </div>
+  <!-- /* NEW NATASHA's CODE!!!! */ -->
+  <footer class="footer">
+    <p>Made by AKN Production &copy; 2019</p>
+    <p>Visit us on <a href="https://github.com/FACN7/week2-akn-api" id="github-link">GitHub</a></p>
+  </footer>
+  <!-- /* NEW NATASHA's CODE!!!! */ -->
   <script src="index.js"></script>
 </body>
 
