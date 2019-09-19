@@ -53,7 +53,7 @@ if(obj.length!=0){
                 +'<h1 id="recipe-name-h1">'+x.title+'</h1>'
             +'</div>'
             +'<div class="recipe-link">'
-                +'<a class="read-more-link" href="'+x.url+'">Read more</a>'
+                +'<a class="read-more-link" href="'+x.url+'" target="_blank" >Read more</a>'
             +'</div>'
     +'</div>';
   });

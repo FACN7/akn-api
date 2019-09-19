@@ -4,6 +4,10 @@ body {
   color: #523F38;
 }
 
+label {
+  visibility: hidden;
+}
+
 .app-body {
   padding: 4% 15%;
   display: flex;
