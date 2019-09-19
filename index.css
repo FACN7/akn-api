@@ -71,12 +71,34 @@ body {
 
 .table-row {
   padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.recipe-image img{
+  max-height: 100px;
+}
+.recipe-image {
+ width: 35%;
+
+ align-self: center;
+}
+.recipe-name{
+  width: 45%;
+}
+.recipe-link{
+  width: 20%;
+  display: flex;
+  align-self: center;
 }
 
 
 .read-more-link {
+  padding-left: 10px;
   color: #197278;
   transition: all 0.5s ease;
+  font-size: 30px;
 }
 a:visited, a:hover {
   color: #283D3B;
@@ -96,7 +118,7 @@ a:visited, a:hover {
 }
 
 .error-container {
-  /* display: none; */
+  display: none;
 }
 
 .error-container-displayed {
